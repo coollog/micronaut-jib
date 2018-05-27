@@ -1,0 +1,12 @@
+Create a http://spockframework.org[Spock] feature method which verifies that when you do a GET request to `/hello` you get `Hello World` as a response:
+
+[source,groovy]
+.src/test/groovy/example/micronaut/HelloControllerSpec.groovy
+----
+include::{sourceDir}/src/test/groovy/example/micronaut/HelloControllerSpec.groovy[]
+----
+
+<1> The AutoCleanup extension makes sure the `close()` method of an object (e.g. `EmbeddedServer`) is called each time a feature method is finished
+<2> To run the application from a unit test you can use the http://docs.micronaut.io/snapshot/api/io/micronaut/runtime/server/EmbeddedServer.html[EmbeddedServer] interface
+<3> Register a `RxClient` bean in the application context and point it to the embedded server URL. The `EmbeddedServer` interface provides the URL of the server under test which runs on a random port.
+<4> Creating HTTP Requests is easy thanks to Micronaut's fluid API.

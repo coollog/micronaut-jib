@@ -1,0 +1,9 @@
+Remove the `Application.java` created by the `mn create-app --features groovy` command.
+
+Create a Groovy file instead which is used when running the application via Gradle or via deployment. You can also run the main class directly within your IDE if it is configured correctly.
+
+[source,groovy]
+.src/main/groovy/example/micronaut/Application.groovy
+----
+include::{sourceDir}/src/main/groovy/example/micronaut/Application.groovy[]
+----
