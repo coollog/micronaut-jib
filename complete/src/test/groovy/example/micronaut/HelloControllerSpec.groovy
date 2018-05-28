@@ -22,7 +22,7 @@ class HelloControllerSpec extends Specification {
     void "test hello world response"() {
         when:
         HttpRequest request = HttpRequest.GET('/hello') // <4>
-        Strin rsp  = client.toBlocking().retrieve(request)
+        String rsp  = client.toBlocking().retrieve(request)
 
         then:
         rsp == "Hello World"
