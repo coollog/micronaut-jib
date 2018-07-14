@@ -5,7 +5,7 @@ This is an example of how to easily build a Docker image for a [Micronaut framew
 Read more about Jib at the [official blog post](https://cloudplatform.googleblog.com/2018/07/introducing-jib-build-java-docker-images-better.html).
 
 <p align="center">
-    <a href="https://twitter.com/intent/tweet?text=Dockerize%20%22Hello%20World%22%20%40java%20%40micronautfw%20app%20with%20%23Jib&url=https://asciinema.org/a/191805&hashtags=micronaut,jib,java,groovylang,docker,kubernetes,microservices,jib">
+    <a href="https://twitter.com/intent/tweet?text=Dockerize%20%22Hello%20World%22%20%40java%20%40micronautfw%20app%20with%20%23Jib%20in%202%20seconds&url=https://asciinema.org/a/191805&hashtags=micronaut,jib,java,groovylang,docker,kubernetes,microservices,jib">
     <img src="https://github.com/coollog/micronaut-jib/blob/master/dockerize-micronaut-jib.gif?raw=true" width="600" alt="Dockerize Micronaut app with Jib">
   </a>
 </p>
@@ -24,8 +24,8 @@ curl localhost:8080/hello
 > Hello World
 ```
 
-<!-- Dockerize "Hello World" @java @micronautfw app with #Jib -->
-Give it a [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Dockerize%20%22Hello%20World%22%20%40java%20%40micronautfw%20app%20with%20%23Jib&url=https://github.com/coollog/micronaut-jib&hashtags=micronaut,jib,java,groovylang,docker,kubernetes,microservices,jib)
+<!-- Dockerize "Hello World" @java @micronautfw app with #Jib in 2 seconds -->
+Give it a [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Dockerize%20%22Hello%20World%22%20%40java%20%40micronautfw%20app%20with%20%23Jib%20in%202%20seconds&url=https://github.com/coollog/micronaut-jib&hashtags=micronaut,jib,java,groovylang,docker,kubernetes,microservices,jib)
 
 ### With Kubernetes
 
@@ -45,7 +45,7 @@ curl localhost:8080/hello
 ```
 
 <!-- "Hello World" @java @micronautfw app on Kubernetes with #Jib -->
-Give it a [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=%22Hello%20World%22%20%40java%20%40micronautfw%20app%20on%20Kubernetes%20with%20%23Jib&url=https://github.com/coollog/micronaut-jib&hashtags=micronaut,jib,java,groovylang,docker,kubernetes,microservices,jib)
+Give it a [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=%22Hello%20World%22%20%40java%20%40micronautfw%20app%20on%20Kubernetes%20with%20%23Jib%20in%202%20seconds&url=https://github.com/coollog/micronaut-jib&hashtags=micronaut,jib,java,groovylang,docker,kubernetes,microservices,jib)
 
 ## More information
 
