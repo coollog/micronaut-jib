@@ -1,1 +1,0 @@
-include::{commondir}/common-completesolution.adoc[]
