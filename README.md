@@ -4,7 +4,7 @@ This is an example of how to easily build a Docker image for a micronaut framewo
 
 Read more about Jib at the [official blog post](https://cloudplatform.googleblog.com/2018/07/introducing-jib-build-java-docker-images-better.html).
 
-ADD VIDEO HERE
+[![Dockerize Micronaut app with Jib](https://github.com/coollog/micronaut-jib/dockerize-micronaut-jib.gif)](https://twitter.com/intent/tweet?text=Dockerize%20%22Hello%20World%22%20%40java%20%40micronautfw%20app%20with%20%23Jib&url=https://asciinema.org/a/191801&hashtags=micronaut,jib,java,groovylang,docker,kubernetes,microservices,jib)
 
 ## Quickstart
 
