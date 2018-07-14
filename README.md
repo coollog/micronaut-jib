@@ -10,12 +10,13 @@ Read more about Jib at the [official blog post](https://cloudplatform.googleblog
 
 ```shell
 ./gradlew jibDockerBuild
+```
+```shell
 docker run -d -p 8080:8080 micronaut-jib
 ```
-
 ```shell
 curl localhost:8080/hello
-Hello World
+> Hello World
 ```
 
 <!-- Dockerize "Hello World" @java @micronautfw app with #Jib -->
@@ -25,15 +26,20 @@ Hello World
 
 ```shell
 IMAGE=<your image, eg. gcr.io/my-project/micronaut-jib>
+```
+```shell
 ./gradlew jib --image=$IMAGE
+```
+```shell
 kubectl run micronaut-jib --image=$IMAGE --port=8080 --restart=Never
+```
+```shell
 # Wait until pod is running
 kubectl port-forward micronaut-jib 8080 > /dev/null 2>&1 &
 ```
-
 ```shell
 curl localhost:8080/hello
-Hello World
+> Hello World
 ```
 
 <!-- "Hello World" @java @micronautfw app on Kubernetes with #Jib -->
