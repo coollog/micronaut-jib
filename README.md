@@ -4,6 +4,8 @@ This is an example of how to easily build a Docker image for a micronaut framewo
 
 Read more about Jib at the [official blog post](https://cloudplatform.googleblog.com/2018/07/introducing-jib-build-java-docker-images-better.html).
 
+ADD VIDEO HERE
+
 ## Quickstart
 
 ### With Docker
@@ -11,7 +13,7 @@ Read more about Jib at the [official blog post](https://cloudplatform.googleblog
 ```shell
 ./gradlew jibDockerBuild
 
-docker run -d -p 8080:8080 micronaut-jib
+docker run -d -p 8080:8080 micronaut-jib:0.1
 ```
 ```shell
 curl localhost:8080/hello
