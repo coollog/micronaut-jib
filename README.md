@@ -1,6 +1,6 @@
 # Containerize a [Micronaut](http://micronaut.io/) app with [Jib](https://github.com/GoogleContainerTools/jib)
 
-This is an example of how to easily build a Docker image for a micronaut framework Groovy/Java application with Jib.
+This is an example of how to easily build a Docker image for a [Micronaut framework Groovy/Java application](http://guides.micronaut.io/creating-your-first-micronaut-app-groovy/guide/index.html) with Jib.
 
 Read more about Jib at the [official blog post](https://cloudplatform.googleblog.com/2018/07/introducing-jib-build-java-docker-images-better.html).
 
