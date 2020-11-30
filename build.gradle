@@ -42,4 +42,5 @@ compileJava.options.compilerArgs += '-parameters'
 compileTestJava.options.compilerArgs += '-parameters'
 
 /** CHANGE THIS TO THE IMAGE YOU WANT TO PUSH TO */
+jib.from.image = 'openjdk:8-jre-alpine'
 // jib.to.image = 'gcr.io/qingyangc-sandbox/micronaut-jib'
